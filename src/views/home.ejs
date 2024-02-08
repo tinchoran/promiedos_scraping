@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promiedos</title>
+    <link rel="stylesheet" href="./styles/index.css">
+</head>
+<body>
+
+    <main class="main_container">
+        <div class="fixtures">
+            <% view.matches.forEach(liga => { %>
+                <div class="table_container">
+                    <table class="table">
+        
+                        <thead>
+                            <tr>
+                                <th class="table__title" colspan="5"><%= liga.liga %></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <% liga.partidos.forEach(partido => {%>
+                                <tr>
+                                    <td><%=partido.gameplay || partido.gametime %></td>
+                                    <td>
+                                        <img src="<%=partido.img1%>" alt="" class="team_logo">
+                                        <%=partido.t1%>
+                                    </td>
+                                    <td><%=partido.r1%></td>
+                                    <td><%=partido.r2%></td>
+                                    <td>
+                                        <img src="<%=partido.img2%>" alt="" class="team_logo">
+                                        <%=partido.t2%>
+                                        
+                                    </td>
+                                </tr>
+                            <%})%>
+            
+                
+                        </tbody>
+                    
+                    </table>
+                </div>
+        
+                <%})%>
+        </div>
+        <div class="tablas_container">
+            <form action="" class="tables__form">
+                <label for="liga" class="form__label">Seleccionar liga</label>
+                <select name="liga" id="liga" class="tables__select">
+                    <% view.tableNames.forEach(ligue => { %>
+                        <% if(ligue == view.table.paisLiga) {%>
+                            <option value="<%=ligue%>" selected><%=ligue%></option>
+                        <% } else { %>
+                            <option value="<%=ligue%>"><%=ligue%></option>
+                        <% } %>
+                    <% }) %>
+                </select>
+            </form>
+            <table class="pts__table">
+                <thead>
+                    <tr>
+                        <th>Posicion</th>
+                        <th>Equipo</th>
+                        <th>Puntos</th>
+                        <th>PG</th>
+                        <th>PE</th>
+                        <th>PP</th>
+                        <th>GF</th>
+                        <th>GC</th>
+                        <th>Dif</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <%view.table.teamsData.forEach(team => {%>
+                        <tr>
+                            <td><%=team.pos%></td>
+                            <td><img src="<%=team.img%>" alt=""><%=team.name%></td>
+                            <td><%=team.points%></td>
+                            <td><%=team.played%></td>
+                            <td><%=team.wins%></td>
+                            <td><%=team.loses%></td>
+                            <td><%=team.golesAF%></td>
+                            <td><%=team.golesEC%></td>
+                            <td><%=team.difGoles%></td>
+                        </tr>
+                    <%})%>
+                </tbody>
+            </table>
+        </div>
+
+
+    </main>
+
+    <script>
+        function submitForm() {
+            const selectedOption = document.getElementById('liga').value;
+            window.location.href = `/${selectedOption}`;
+            return false; // Evitar que el formulario se envíe automáticamente
+        }
+
+        document.getElementById("liga").addEventListener("change", () => {
+            submitForm()
+
+        })
+    </script>
+</body>
+</html>

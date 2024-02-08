@@ -1,0 +1,117 @@
+[
+  {
+    "liga": " COPA LIBERTADORES ",
+    "partidos": [
+      {
+        "t1": " Aucas",
+        "t2": "  Nacional (P)",
+        "img1": "https://www.promiedos.com.ar/images/ps/ecuador.gif",
+        "img2": "https://www.promiedos.com.ar/images/18/751.png",
+        "r1": "-",
+        "r2": "-",
+        "gametime": "21:30  ",
+        "gameplay": ""
+      }
+    ]
+  },
+  {
+    "liga": " COPA DE LA LIGA ",
+    "partidos": [
+      {
+        "t1": "Rosario Central",
+        "t2": "Ind Rivadavia",
+        "img1": "https://www.promiedos.com.ar/images/18/35.png",
+        "img2": "https://www.promiedos.com.ar/images/18/32.png",
+        "r1": "-",
+        "r2": "-",
+        "gametime": "19:30  ",
+        "gameplay": ""
+      },
+      {
+        "t1": "Huracan",
+        "t2": "Independiente",
+        "img1": "https://www.promiedos.com.ar/images/18/11.png",
+        "img2": "https://www.promiedos.com.ar/images/18/12.png",
+        "r1": "-",
+        "r2": "-",
+        "gametime": "21:15  ",
+        "gameplay": ""
+      }
+    ]
+  },
+  {
+    "liga": " PREOLIMPICO SUB 23 ",
+    "partidos": [
+      {
+        "t1": "Argentina",
+        "t2": "Paraguay",
+        "img1": "https://www.promiedos.com.ar/images/ps/argentina.gif",
+        "img2": "https://www.promiedos.com.ar/images/ps/paraguay.gif",
+        "r1": "-",
+        "r2": "-",
+        "gametime": "17:00  ",
+        "gameplay": ""
+      },
+      {
+        "t1": "Venezuela",
+        "t2": "Brasil",
+        "img1": "https://www.promiedos.com.ar/images/ps/venezuela.gif",
+        "img2": "https://www.promiedos.com.ar/images/ps/brasil.gif",
+        "r1": "-",
+        "r2": "-",
+        "gametime": "20:00  ",
+        "gameplay": ""
+      }
+    ]
+  },
+  {
+    "liga": " LIGA COLOMBIA ",
+    "partidos": [
+      {
+        "t1": "Dep. Pereira",
+        "t2": "Fortaleza CEIF",
+        "img1": "https://www.promiedos.com.ar/images/18/1329.png",
+        "img2": "https://www.promiedos.com.ar/images/18/1649.png",
+        "r1": "-",
+        "r2": "-",
+        "gametime": "18:00  ",
+        "gameplay": ""
+      },
+      {
+        "t1": "Junior",
+        "t2": "Dep. Pasto",
+        "img1": "https://www.promiedos.com.ar/images/18/739.png",
+        "img2": "https://www.promiedos.com.ar/images/18/1030.png",
+        "r1": "-",
+        "r2": "-",
+        "gametime": "20:10  ",
+        "gameplay": ""
+      },
+      {
+        "t1": "Patriotas",
+        "t2": "Atl. Nacional",
+        "img1": "https://www.promiedos.com.ar/images/18/1335.png",
+        "img2": "https://www.promiedos.com.ar/images/18/662.png",
+        "r1": "-",
+        "r2": "-",
+        "gametime": "22:20  ",
+        "gameplay": ""
+      }
+    ]
+  },
+  {
+    "liga": " LIGA MEXICO ",
+    "partidos": [
+      {
+        "t1": "Pachuca",
+        "t2": "Leon FC",
+        "img1": "https://www.promiedos.com.ar/images/18/902.png",
+        "img2": "https://www.promiedos.com.ar/images/18/897.png",
+        "r1": "3",
+        "r2": "2",
+        "gametime": "Final",
+        "gameplay": ""
+      }
+    ]
+  }
+]
