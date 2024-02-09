@@ -94,3 +94,15 @@ html{
     padding: 1rem;
     border: 1px solid white;
 }
+
+
+footer{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 5rem;
+    font-size: 1.3rem;
+}
